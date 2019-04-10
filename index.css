@@ -1,0 +1,210 @@
+html {
+     width: 100%;
+     height: 100%;
+ }
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.biggest_div{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.background_image {
+  position: absolute;
+  width: 100%;
+  /* height: 50px; */
+}
+.background_image >img {
+  position: absolute;
+  width: 100%;
+}
+
+.explore_flex {
+  display: flex;
+}
+
+.climber_community {
+  height: 40px;
+
+}
+
+.main_row_flex {
+  width: 90%;
+  box-shadow: 0 6px 28px 1px rgba(0, 0, 0, 0.3);
+  border-radius: 45px;
+  height: 67px;
+  background-color: #FFFFFF;
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.four_words_flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.style {
+  font-size: 14px;
+  font-weight: bold;
+  color: #5c8299;
+  margin-top: 2.5%;
+  margin-right: 9%;
+  max-width: 40%;
+}
+
+.words_icons_flex {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  margin-top: 1.5%;
+  margin-right: 10%;
+}
+
+.icon_style {
+  display: flex;
+  flex-direction: row;
+}
+
+.sign_up {
+  margin-left: -5%;
+}
+
+.icon_four-words {
+  display: flex;
+  flex-direction: row;
+  margin-left: 2%;
+  margin-top: 1.5%;
+}
+
+.climber_text {
+  width: 551px;
+  height: 56px;
+  font-size: 60px;
+  letter-spacing: 1.5px;
+  margin-top: 20%;
+  margin-left: 31%;
+}
+
+.climb {
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  position: absolute;
+}
+
+.challenge_text {
+  letter-spacing: 1.5px;
+  margin-top: 29%;
+  margin-left: 40%;
+  position: absolute;
+}
+
+.go {
+  position: absolute;
+  font-family: 'Merriweather', serif;
+  margin-top: 34%;
+  margin-left: 50%;
+  background-color: #ffffff;
+  font-size: 20px;
+  padding: 1%;
+  border-radius: 48px;
+  width: 8%;
+  text-align: center;
+}
+
+.down_line {
+  position: absolute;
+  margin-top: 60%;
+  display: flex;
+  justify-content: space-around ;
+  width: 100%;
+}
+
+.photos_icons {
+  display: flex;
+  flex-direction: row;
+  margin-left: -15%;
+
+}
+
+.right_row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+
+.make_challenges {
+  margin-left: 3.5%;
+  }
+
+.radius {
+  margin-left: 4%;
+}
+
+.begin {
+  position: relative;
+  margin-top: 70%;
+  margin-left: 50%;
+}
+.begin_phrase {
+  color: #5c8299;
+  margin-left: -40%;
+  margin-top: 5%;
+  font-size: 26px;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.75px;
+  width: 583px;
+  height: 29px;
+}
+
+.you_can {
+  width: 382px;
+  height: 16px;
+  opacity: 0.5;
+  color: #000000;
+  font-family: 'Merriweather', sans-serif;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3%;
+  margin-left: -25%;
+}
+
+.dropdown {
+  display: inline-block;
+  margin-left: 1%;
+  margin-right: 1%;
+  background-color: #E4E4E4;
+  border-radius: 48px;
+  text-align: center;
+}
+
+.start {
+  font-family: 'Merriweather', sans-serif;
+  font-size: 22px;
+  background-color: #5c8299;
+  width: 20%;
+  text-align: center;
+  margin-top: 7%;
+  border-radius: 48px;
+  color: #ffffff;
+  margin-left: -3.5%;
+}
+.blue_box {
+  margin-top: 5%;
+
+}
+.image_blue>img {
+  position: absolute;
+  width: 100%;
+
+}
