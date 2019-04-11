@@ -9,17 +9,12 @@ html {
     border: 0;
 }
 
-.biggest_div{
+/* .biggest_div{
   display: flex;
   flex-direction: column;
 
-}
+} */
 
-.background_image {
-  position: absolute;
-  width: 100%;
-  /* height: 50px; */
-}
 .background_image >img {
   position: absolute;
   width: 100%;
@@ -151,9 +146,11 @@ html {
 }
 
 .begin {
-  position: relative;
+  /* position: relative; */
   margin-top: 70%;
   margin-left: 50%;
+  /* background-image: url(images/mountain-names.jpg); */
+
 }
 .begin_phrase {
   color: #5c8299;
@@ -206,5 +203,11 @@ html {
 .image_blue>img {
   position: absolute;
   width: 100%;
+}
 
+.blue_box>img {
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
 }
