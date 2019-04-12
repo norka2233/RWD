@@ -206,7 +206,7 @@ html {
 }
 
 .container {
-  position: absolute;
+  position: relative;
   /* margin-top: -5%; */
   width: 75%;
   /* margin: 0 auto; */
@@ -214,6 +214,7 @@ html {
   display: flex;
   flex-wrap: wrap;
   margin-left: 10%;
+  /* margin-top: 20%; */
 }
 
 .ongoing_row {
@@ -344,7 +345,7 @@ html {
 }
 
 .winner {
-  margin-top: 1200px;
+  margin-top: 20%;
 }
 
 .climber_profile {
@@ -424,11 +425,130 @@ p {
   max-width: 100px;
 }
 
-
-/* .winners {
-  width: 90%;
-  margin: 0 auto;
-  font-family: 'Roboto', sans-serif;
+.footer {
+  margin-top: 10%;
+  font-family: 'Merriweather', serif;
   display: flex;
-  flex-wrap: wrap;
-} */
+  flex-direction: column;
+}
+
+.color {
+  background-color: #36587E;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.summity_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.picture_summity {
+  margin-left: 10%;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+}
+
+.contact {
+  margin-top: 5%;
+  margin-right: 5%;
+}
+
+.summity_word {
+  margin-top: -2.5%;
+}
+
+
+.follow_us_icons {
+  width: 30%;
+  height:50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+    margin: auto;
+}
+.follow_us_icons > p {
+  width: 50%;
+  font-size: 40px;
+
+}
+
+.follow_us_icons > img{
+  width: 12%;
+}
+
+.follow_row {
+  display: flex;
+  justify-content: space-around;
+  height: 200px;
+}
+
+.get_mail_subscribe {
+  font-size: 40px;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1%;
+
+}
+
+.get_mail_subscribe > p {
+  width: 44%;
+  font-size: 30px;
+  margin: auto;
+
+}
+
+.mail_subscribe {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+  border: 2px solid #36587E;
+  border-radius: 123px;
+  font-size: 30px;
+  height: 27%;
+  margin: auto;
+}
+
+
+.your_email_word {
+  color: #36587E;
+  margin:auto;
+}
+.subscribe_word {
+  margin: auto;
+}
+
+.subscribe_word {
+  color: #ffffff;
+  background-color: #36587E;
+}
+
+.five_words_2017 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  font-family: 'Merriweather', serif;
+}
+
+.about_five {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  margin: auto;
+  margin-left: 35%;
+}
+
+.koespo {
+  text-align: center;
+}
+.luiqgo {
+  width: 50%;
+  margin: auto;
+}
