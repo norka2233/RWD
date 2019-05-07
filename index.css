@@ -3,552 +3,168 @@ html {
      height: 100%;
  }
 
-* {
-    padding: 0;
-    margin: 0;
-    border: 0;
-}
+ * {
+     padding: 0;
+     margin: 0;
+     border: 0;
+ }
 
-.background_image > img {
-  position: absolute;
+ .first_box {
+  background-image: url(images/mountain-names.jpg);
   width: 100%;
-}
+  background-size: cover;
+ }
 
-.explore_flex {
-  display: flex;
-}
-
-.climber_community {
-  height: 40px;
-
-}
-
-.main_row_flex {
+ .container {
   width: 90%;
-  box-shadow: 0 6px 28px 1px rgba(0, 0, 0, 0.3);
-  border-radius: 45px;
-  height: 67px;
-  background-color: #FFFFFF;
-  position: absolute;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-left: 5%;
-  margin-top: 5%;
-}
-
-.four_words_flex {
-  display: flex;
-  flex-direction: row;
-}
-
-.style {
-  font-size: 14px;
-  font-weight: bold;
-  color: #5c8299;
-  margin-top: 2.5%;
-  margin-right: 9%;
-  max-width: 40%;
-}
-
-.words_icons_flex {
-  display: flex;
-  flex-direction: row;
-  margin-left: 2%;
-  margin-top: 1.5%;
-  margin-right: 10%;
-}
-
-.icon_style {
-  display: flex;
-  flex-direction: row;
-}
-
-.sign_up {
-  margin-left: -5%;
-}
-
-.icon_four-words {
-  display: flex;
-  flex-direction: row;
-  margin-left: 2%;
-  margin-top: 1.5%;
-}
-
-.climber_text {
-  width: 551px;
-  height: 56px;
-  font-size: 60px;
-  letter-spacing: 1.5px;
-  margin-top: 20%;
-  margin-left: 31%;
-}
-
-.climb {
-  color: #ffffff;
-  font-family: 'Merriweather', serif;
-  position: absolute;
-}
-
-.challenge_text {
-  letter-spacing: 1.5px;
-  margin-top: 29%;
-  margin-left: 40%;
-  position: absolute;
-}
-
-.go {
-  position: absolute;
-  font-family: 'Merriweather', serif;
-  margin-top: 34%;
-  margin-left: 50%;
-  background-color: #ffffff;
-  font-size: 20px;
-  padding: 1%;
-  border-radius: 48px;
-  width: 8%;
-  text-align: center;
-}
-
-.down_line {
-  position: absolute;
-  margin-top: 60%;
-  display: flex;
-  justify-content: space-around ;
-  width: 100%;
-}
-
-.photos_icons {
-  display: flex;
-  flex-direction: row;
-  margin-left: -15%;
-
-}
-
-.right_row {
-  display: flex;
-  flex-direction: row;
-  margin-left: 20%;
-}
-
-.make_challenges {
-  margin-left: 3.5%;
-  }
-
-.radius {
-  margin-left: 4%;
-}
-
-.begin {
-  /* position: relative; */
-  margin-top: 70%;
-  margin-left: 50%;
-  /* background-image: url(images/mountain-names.jpg); */
-
-}
-.begin_phrase {
-  color: #5c8299;
-  margin-left: -40%;
-  margin-top: 5%;
-  font-size: 26px;
-  font-family: 'Merriweather', serif;
-  letter-spacing: 0.75px;
-  width: 583px;
-  height: 29px;
-}
-
-.you_can {
-  width: 382px;
-  height: 16px;
-  opacity: 0.5;
-  color: #000000;
-  font-family: 'Merriweather', sans-serif;
-  font-size: 16px;
-  display: flex;
-  flex-direction: row;
-  margin-top: 3%;
-  margin-left: -25%;
-}
-
-.dropdown {
-  display: inline-block;
-  margin-left: 1%;
-  margin-right: 1%;
-  background-color: #E4E4E4;
-  border-radius: 48px;
-  text-align: center;
-}
-
-.start {
-  font-family: 'Merriweather', sans-serif;
-  font-size: 22px;
-  background-color: #5c8299;
-  width: 20%;
-  text-align: center;
-  margin-top: 7%;
-  border-radius: 48px;
-  color: #ffffff;
-  margin-left: -3.5%;
-}
-.blue_box {
-  margin-top: 5%;
-  width: 100%;
-  background-size: cover;
-}
-
-
-.blue_box>img {
-  position: absolute;
-  width: 100%;
-  background-size: cover;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.container {
-  position: relative;
-  /* margin-top: -5%; */
-  width: 75%;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   font-family: 'Roboto', sans-serif;
   display: flex;
   flex-wrap: wrap;
-  margin-left: 10%;
-  /* margin-top: 20%; */
-}
+ }
 
-.ongoing_row {
-  width: 100%;
-  margin: 5vw 0vw;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.ongoing_events {
-  color: #5c8299;
-  display: flex;
-  height: 18px;
-}
-
-.ongoing_text {
-  padding-left: 10px;
-
-}
-
-.find_event {
-  border: 1px solid #fff;
-  width: 160px;
-  height: 50px;
-  align-items: center;
-  border-radius: 46px;
-}
-
-.find_event > img {
-  padding-left: 8px;
-}
-.find_text {
-  padding-left: 10px;
-  color: #5c8299;
-
-}
-
-.everest_row {
-  display: flex;
-  justify-content: space-between;
-  width: 97%;
-  color: #5c8299;
-  margin: auto;
-  font-size: 13px;
-}
-
-.everest_line {
-  width: 98%;
-  margin: 10px auto;
-  height: 3px;
-  background: rgb(179, 171, 171);
-}
-
-.line {
-  height: 3px;
-  width: 10%;
-  background: #fff;
-}
-
-.pictures {
-  margin: 60px 0;
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  justify-content: space-between;
-}
-
-.picture {
-  width: 23%;
+.menu {
   background: #ffffff;
-  border-radius: 8px;
-  margin-top: 20px;
-}
-
-.picture>img {
+  border-radius: 30px;
   width: 100%;
-}
-
-.event_name {
-  color: #305f7d;
-  font-weight: bold;
-  padding-left: 15px;
-  padding-top: 20px;
-}
-
-.duration {
-  color: #a9a9a9;
-  font-size: 12px;
-  padding-top: 10px;
-  padding-left: 15px;
-}
-
-.clients {
-  width: 100%;
+  margin: 40px auto;
   display: flex;
-  padding-left: 15px;
-  /* padding-top: 10px; */
   align-items: center;
-  font-size: 12px;
-}
-
-.more {
-  width: 65px;
-  height: 30px;
-  background: #305f7d;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-  border-radius: 25px;
-  color: #fff;
-  font-size: 13px;
-  margin: 20px 21px 20px auto;
-}
-
-.logo {
-  background: url(images/cup.png);
-  height: 92px;
-  width: 114px;
-  margin: 60px auto;
-}
-
-.top_text {
-  width: 100%;
-  text-align: center;
+  font-family: 'Roboto';
   color: #305f7d;
-  font-size: 25px;
+ }
+
+
+ .menu_picture {
+    margin-left: 4vw;
 }
 
-.winner {
-  margin-top: 20%;
-}
-
-.climber_profile {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 30px;
-  position: relative;
-}
-
-.top_side {
-  /* height: 40px; */
-  width: 280px;
-  border-top-right-radius: 60px;
-  position: relative;
-  top: 2px;
-  background-color: white;
-  box-shadow: -2px -2px 3px 0px #c0bebe;
-}
-
-
-
-.climber_name {
-  color: #305f7d;
+.menu_words {
   font-size: 20px;
-  font-weight: bold;
-  /* padding-left: 95px; */
-  /* padding-top: 10px; */
-}
-
-.climber_number {
-  height: 17px;
-  width: 17px;
-  border-radius: 50%;
-  color: #fff;
-  background: #305f7d;
-  position: absolute;
-  text-align: center;
-  font-size: 14px;
-  left: 82px;
-  top: 82
-  `px;
-}
-
-.bottom_side {
-  border-bottom-left-radius: 50px;
-  width: 510px;
-  height: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  border-top-rigclassht-radius: 40px;
-  border-bottom-right-radius: 40px;
-  box-shadow: 0 0 3px 2px #c0bebe;
-}
-
-p {
-  max-width: 100%;
-  font-size: 16px;
-  padding-left: 7%;
-  padding-top: 3%;
-  color: #305f7d;
-}
-
-.climbers {
-  margin: auto;
-}
-
-.top_side{
-  display: flex;
-  flex-direction: row;
-
-}
-
-.img_number > img {
-  max-height:100px;
-  max-width: 100px;
-}
-
-.footer {
-  margin-top: 10%;
-  font-family: 'Merriweather', serif;
-  display: flex;
-  flex-direction: column;
-}
-
-.color {
-  background-color: #36587E;
-}
-
-.white {
-  color: #ffffff;
-}
-
-.summity_row {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.picture_summity {
-  margin-left: 10%;
-  margin-top: 5%;
-  display: flex;
-  flex-direction: row;
-}
-
-.contact {
-  margin-top: 5%;
-  margin-right: 5%;
-}
-
-.summity_word {
-  margin-top: -2.5%;
-}
-
-
-.follow_us_icons {
-  width: 30%;
-  height:50px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-    margin: auto;
-}
-.follow_us_icons > p {
-  width: 50%;
-  font-size: 40px;
-
-}
-
-.follow_us_icons > img{
-  width: 12%;
-}
-
-.follow_row {
-  display: flex;
-  justify-content: space-around;
-  height: 200px;
-}
-
-.get_mail_subscribe {
-  font-size: 40px;
-  width: 50%;
-  display: flex;
-  flex-direction: row;
-  margin-top: 1%;
-
-}
-
-.get_mail_subscribe > p {
-  width: 44%;
-  font-size: 30px;
-  margin: auto;
-
-}
-
-.mail_subscribe {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   width: 90%;
-  border: 2px solid #36587E;
-  border-radius: 123px;
-  font-size: 30px;
-  height: 27%;
-  margin: auto;
-}
-
-
-.your_email_word {
-  color: #36587E;
-  margin:auto;
-}
-.subscribe_word {
-  margin: auto;
-}
-
-.subscribe_word {
-  color: #ffffff;
-  background-color: #36587E;
-}
-
-.five_words_2017 {
+  height: 50px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: auto;
-  font-family: 'Merriweather', serif;
+  justify-content: space-between;
+  margin-left: auto;
+  align-items: center;
+  /* margin-right: 8px; */
 }
 
-.about_five {
+@media screen and (max-width: 773px) and (min-width: 260px){
+  .menu{
+    visibility: hidden;
+  }
+}
+
+.menu_left {
   display: flex;
-  flex-direction: row;
-  width: 50%;
-  margin: auto;
-  margin-left: 35%;
+  align-items: center;
+  list-style: none;
 }
 
-.koespo {
+.menu_right {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.word {
+  margin-right: 4px;
+}
+
+h1 {
+  font-size: 50px;
+  width: 100%;
   text-align: center;
+  color: #fff;
+  padding-top: 150px;
 }
-.luiqgo {
-  width: 50%;
-  margin: auto;
+
+h5 {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  padding-top: 10px;
+  font-size: 20px;
 }
+
+.go-button{
+  width: 80px;
+  height: 40px;
+  border-radius: 25px;
+  background: #fff;
+  margin: 30px auto;
+  color: #3f6b86;
+}
+
+.button-text{
+  text-align: center;
+  padding-top: 6px;
+  font-size: 23px;
+}
+
+.ending{
+  width: 100%;
+  margin: 70px auto 40px auto;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  align-items: center;
+}
+
+.second_block {
+    background: #fff;
+    width: 100%;
+}
+
+.mountain_picture {
+  margin: 70px auto 0px auto;
+}
+
+.begin {
+  width: 100%;
+  text-align: center;
+  color: grey;
+  font-size: 3vw;
+  padding-top: 55px;
+}
+
+.text_filter{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+
+.text_filter{
+  color: #a9a9a9;
+  font-size: 2vw;
+}
+
+.button_filter {
+  background: #e5e5e5;
+  height: 30px;
+  margin: 0px 5px;
+  border-radius: 15px;
+  width: 80px;
+  color: #727272;
+}
+
+.start_button{
+  height: 40px;
+  width: 120px;
+  border-radius: 25px;
+  background: #fff;
+  margin: 60px auto;
+  background: #3f6b86;
+  color: #fff;
+  font-size: 23px;
+  }
+
+  .button_filter, .start_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
